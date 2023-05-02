@@ -30,4 +30,4 @@ Make sure you have trained a GPT-LEAN model or download a pre-trained GPT-LEAN m
 We assume that the model is placed in the *config* directory.  
 Check *lean_tokenizer.json* is in your directory.  
 If you want to run a demo of the model in terminal, you can run the code `python shell_linux.py`.  
-If you want use the GUI of GPT-LEAN in Windows, you should run `python shell_windows.py`. (The icon file *gpt_lean_icon.ico* should be in your directory before run the GUI.)
+If you want use the GUI of GPT-LEAN in Windows, you should run `python shell_windows.py`. (Make sure you have installed all the required library in *requirements_run.txt*. The icon file *gpt_lean_icon.ico* should be in your directory before run the GUI.)
