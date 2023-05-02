@@ -35,6 +35,7 @@ config = GPT2Config(
 # Training configuration
 batch_size=32
 epochs=10
+save_freq=3025
 
 
 class LossHistory(tf.keras.callbacks.Callback):
@@ -109,7 +110,7 @@ def train_model(model, train_dataset, eval_dataset, batch_size, epochs):
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
         filepath=checkpoint_filepath,
         save_weights_only=True,
-        save_freq=6000
+        save_freq=save_freq
     )
 
     initial_epoch = 0
