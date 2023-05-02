@@ -21,7 +21,8 @@ Run the code `cd GPT-LEAN` in your terminal. This will set your current director
 Run the code `python tokenization.py`. This will do the BPE tokenization to the data *lean_code.txt* (also generate a translated data *processed_lean_code.txt*). The tokenizer will be saved as *lean_tokenizer.json*.
 
 ### Step 4 Train the model
-Run the code `python train.py`. This will take hours to train the model and the output will be save in the directory *config*. During the training, it will save some checkpoints in the directory *gpt_lean_checkpoints*. You can edit the frequency of checkpoints by changing the value of *save_freq* in *train.py*.  
+Run the code `python train.py`. This will take hours to train the model and the output will be save in the directory *config*.  
+During the training, it will save some checkpoints in the directory *gpt_lean_checkpoints*. You can edit the frequency of checkpoints by changing the value of *save_freq* in *train.py*. If the training is interrupted and you run the *train.py* again, you will start from the latest checkpoint. If you have finished training, you should remove the *gpt_lean_checkpoints* directory to release the space.   
 At the end of training, it will also save the training loss history in the file *loss_history.json* and plot a figure of it in *loss_history.png*.
 
 ## How to run the GPT-LEAN theorem prover
