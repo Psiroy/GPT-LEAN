@@ -1,0 +1,5 @@
+tensorflow
+tokenizers
+transformers
+tkinter
+pyperclip
