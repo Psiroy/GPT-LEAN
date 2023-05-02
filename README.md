@@ -2,7 +2,7 @@
 A GPT-2 model trained to generate formal mathematical proofs in LEAN.
 
 ## How to train the model
-This is a good example to show how to train a GPT-2 model because its rather small dataset.
+This is a good tutorial to show how to train a GPT-2 model because its rather small dataset.
 
 ### Step 1 Prepare the environment
 1. Make sure you have already installed Python. If not, please download and install it from https://www.python.org/downloads/ .  
