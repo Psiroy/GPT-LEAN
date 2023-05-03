@@ -1,5 +1,6 @@
 # GPT-LEAN
 A GPT-2 model trained to generate formal mathematical proofs in LEAN.
+This [miniature GPT-LEAN Demo](https://www.dropbox.com/scl/fo/tpo0hv5p2rsiiudjjgr2o/h?dl=0&rlkey=uk7jxx5hlz2csxhger0imtdgg) can provide text generation that looks very like LEAN code. This is my project for an introductory Neural Network course in 2023 Spring.
 
 ## How to train the model
 This is a good tutorial to show how to train a GPT-2 model because its rather small dataset.
