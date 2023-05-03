@@ -27,6 +27,7 @@ At the end of training, it will also save the training loss history in the file 
 
 ## How to run the GPT-LEAN theorem prover
 Make sure you have trained a GPT-LEAN model or download a pre-trained GPT-LEAN model.  
+A pre-trained GPT-LEAN model is provided [here (Dropbox)](https://www.dropbox.com/scl/fo/tpo0hv5p2rsiiudjjgr2o/h?dl=0&rlkey=uk7jxx5hlz2csxhger0imtdgg).  
 We assume that the model is placed in the *config* directory.  
 Check *lean_tokenizer.json* is in your directory.  
 If you want to run a demo of the model in terminal, you can run the code `python shell_linux.py`.  
