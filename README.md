@@ -16,7 +16,7 @@ Run the code `cd GPT-LEAN` in your terminal. This will set your current director
 ### Step 2 Prepare the data
 1. Run the code `python extract_lean_code.py`. This will put all the LEAN code file in *mathlib/src* to a file *lean_code.txt*. You can modify the range of files you want to use as the training data by edit the value of *root_dir* in *extract_lean_code.py* (for example, use 'root_dir="mathlib"').
 2. Run the code `python split_data.py`. This will generate a dataset for training and a dataset for validation. If you have modify the *root_dir* in the file *extract_lean_code.py*, you should edit the value of *directory* in *split_data.py* as well.
-3. Run the code `python process_data.py`. This will translate the data to the form what the model will use as an input.
+3. Run the code `python process_data.py`. This will translate the data to the form in which the model will use as an input.
 
 ### Step 3 Tokenization
 Run the code `python tokenization.py`. This will do the BPE tokenization to the data *lean_code.txt* (also generate a translated data *processed_lean_code.txt*). The tokenizer will be saved as *lean_tokenizer.json*.
